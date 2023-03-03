@@ -1,0 +1,278 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fieldgroup fieldgroup layout span !== 24 1`] = `
+<form
+  class="ant-form ant-form-horizontal"
+>
+  <div
+    class="ant-row"
+    style="margin-left: -12px; margin-right: -12px;"
+  >
+    <div
+      class="ant-col ant-col-6"
+      style="padding-left: 12px; padding-right: 12px;"
+    >
+      <div
+        class="ant-row ant-form-item"
+      >
+        <div
+          class="ant-col ant-col-8 ant-form-item-label"
+        >
+          <label
+            class=""
+            for="input"
+            title="input"
+          >
+            input
+          </label>
+        </div>
+        <div
+          class="ant-col ant-col-16 ant-form-item-control"
+        >
+          <div
+            class="ant-form-item-control-input"
+          >
+            <div
+              class="ant-form-item-control-input-content"
+            >
+              <input
+                class="ant-input"
+                id="input"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="ant-row"
+    style="margin-left: -12px; margin-right: -12px;"
+  >
+    <div
+      class="ant-col ant-col-12"
+      style="padding-left: 12px; padding-right: 12px;"
+    >
+      <div
+        class="ant-row ant-form-item"
+      >
+        <div
+          class="ant-col ant-col-8 ant-form-item-label"
+        >
+          <label
+            class=""
+            for="input2"
+            title="input2"
+          >
+            input2
+          </label>
+        </div>
+        <div
+          class="ant-col ant-col-16 ant-form-item-control"
+        >
+          <div
+            class="ant-form-item-control-input"
+          >
+            <div
+              class="ant-form-item-control-input-content"
+            >
+              <input
+                class="ant-input"
+                id="input2"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="ant-row"
+    style="margin-left: -12px; margin-right: -12px;"
+  >
+    <div
+      class="ant-col ant-col-12"
+      style="padding-left: 12px; padding-right: 12px;"
+    >
+      <div
+        class="ant-row ant-form-item"
+      >
+        <div
+          class="ant-col ant-col-8 ant-form-item-label"
+        >
+          <label
+            class=""
+            for="input2-1"
+            title="input2"
+          >
+            input2
+          </label>
+        </div>
+        <div
+          class="ant-col ant-col-16 ant-form-item-control"
+        >
+          <div
+            class="ant-form-item-control-input"
+          >
+            <div
+              class="ant-form-item-control-input-content"
+            >
+              <input
+                class="ant-input"
+                id="input2-1"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="ant-row"
+    style="margin-left: -12px; margin-right: -12px;"
+  >
+    <div
+      class="ant-col ant-col-12"
+      style="padding-left: 12px; padding-right: 12px;"
+    >
+      <div
+        class="ant-row ant-form-item"
+      >
+        <div
+          class="ant-col ant-col-8 ant-form-item-label"
+        >
+          <label
+            class=""
+            for="input2-2"
+            title="input2"
+          >
+            input2
+          </label>
+        </div>
+        <div
+          class="ant-col ant-col-16 ant-form-item-control"
+        >
+          <div
+            class="ant-form-item-control-input"
+          >
+            <div
+              class="ant-form-item-control-input-content"
+            >
+              <input
+                class="ant-input"
+                id="input2-2"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="ant-row"
+    style="margin-left: -12px; margin-right: -12px;"
+  >
+    <div
+      class="ant-col ant-col-12"
+      style="padding-left: 12px; padding-right: 12px;"
+    >
+      <div
+        class="ant-row ant-form-item"
+        style="margin-bottom: 0px;"
+      >
+        <div
+          class="ant-col ant-col-16 ant-col-offset-8 ant-form-item-control"
+        >
+          <div
+            class="ant-form-item-control-input"
+          >
+            <div
+              class="ant-form-item-control-input-content"
+            >
+              <div
+                class="sula-form-action-default"
+              >
+                <button
+                  class="ant-btn"
+                  type="button"
+                >
+                  <span>
+                    btn
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="ant-row"
+    style="margin-left: -12px; margin-right: -12px;"
+  />
+  <div
+    class="sula-form-action-center"
+  >
+    <button
+      class="ant-btn"
+      type="button"
+    >
+      <span>
+        btn
+      </span>
+    </button>
+  </div>
+  <div
+    class="ant-row"
+    style="margin-left: -12px; margin-right: -12px;"
+  />
+  <div>
+    <div
+      class="ant-col ant-col-12"
+    >
+      <div
+        class="ant-row ant-form-item"
+      >
+        <div
+          class="ant-col ant-col-8 ant-form-item-label"
+        >
+          <label
+            class=""
+            for="input3"
+            title="input2"
+          >
+            input2
+          </label>
+        </div>
+        <div
+          class="ant-col ant-col-16 ant-form-item-control"
+        >
+          <div
+            class="ant-form-item-control-input"
+          >
+            <div
+              class="ant-form-item-control-input-content"
+            >
+              <input
+                class="ant-input"
+                id="input3"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+`;

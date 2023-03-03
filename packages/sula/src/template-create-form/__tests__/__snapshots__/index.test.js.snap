@@ -1,0 +1,479 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createForm createForm actionsRender 1`] = `
+<div
+  class="ant-spin-nested-loading"
+>
+  <div
+    class="ant-spin-container"
+  >
+    <form
+      class="ant-form ant-form-horizontal"
+    >
+      <div
+        class="ant-row ant-form-item"
+      >
+        <div
+          class="ant-col ant-col-8 ant-form-item-label"
+        >
+          <label
+            class=""
+            for="input1"
+            title="label1"
+          >
+            label1
+          </label>
+        </div>
+        <div
+          class="ant-col ant-col-12 ant-form-item-control"
+        >
+          <div
+            class="ant-form-item-control-input"
+          >
+            <div
+              class="ant-form-item-control-input-content"
+            >
+              <input
+                class="ant-input"
+                id="input1"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-row ant-form-item"
+      >
+        <div
+          class="ant-col ant-col-8 ant-form-item-label"
+        >
+          <label
+            class=""
+            for="input2"
+            title="label2"
+          >
+            label2
+          </label>
+        </div>
+        <div
+          class="ant-col ant-col-12 ant-form-item-control"
+        >
+          <div
+            class="ant-form-item-control-input"
+          >
+            <div
+              class="ant-form-item-control-input-content"
+            >
+              <input
+                class="ant-input"
+                id="input2"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-row ant-form-item"
+      >
+        <div
+          class="ant-col ant-col-8 ant-form-item-label"
+        >
+          <label
+            class=""
+            for="input3"
+            title="label3"
+          >
+            label3
+          </label>
+        </div>
+        <div
+          class="ant-col ant-col-12 ant-form-item-control"
+        >
+          <div
+            class="ant-form-item-control-input"
+          >
+            <div
+              class="ant-form-item-control-input-content"
+            >
+              <input
+                class="ant-input"
+                id="input3"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-row ant-form-item"
+        style="margin-bottom: 0px;"
+      >
+        <div
+          class="ant-col ant-col-12 ant-col-offset-8 ant-form-item-control"
+        >
+          <div
+            class="ant-form-item-control-input"
+          >
+            <div
+              class="ant-form-item-control-input-content"
+            >
+              <div
+                class="sula-form-action-default"
+              >
+                <button
+                  class="ant-btn"
+                  type="button"
+                >
+                  <span>
+                    button
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`createForm createForm itemLayout cols auto 1`] = `
+<div
+  class="ant-spin-nested-loading"
+>
+  <div
+    class="ant-spin-container"
+  >
+    <form
+      class="ant-form ant-form-horizontal"
+    >
+      <div
+        class="ant-row"
+        style="margin-left: -12px; margin-right: -12px;"
+      >
+        <div
+          class="ant-col ant-col-NaN"
+          style="padding-left: 12px; padding-right: 12px;"
+        >
+          <div
+            class="ant-row ant-form-item"
+          >
+            <div
+              class="ant-col ant-col-8 ant-form-item-label"
+            >
+              <label
+                class=""
+                for="input1"
+                title="label1"
+              >
+                label1
+              </label>
+            </div>
+            <div
+              class="ant-col ant-col-16 ant-form-item-control"
+            >
+              <div
+                class="ant-form-item-control-input"
+              >
+                <div
+                  class="ant-form-item-control-input-content"
+                >
+                  <input
+                    class="ant-input"
+                    id="input1"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ant-col ant-col-NaN"
+          style="padding-left: 12px; padding-right: 12px;"
+        >
+          <div
+            class="ant-row ant-form-item"
+          >
+            <div
+              class="ant-col ant-col-8 ant-form-item-label"
+            >
+              <label
+                class=""
+                for="input2"
+                title="label2"
+              >
+                label2
+              </label>
+            </div>
+            <div
+              class="ant-col ant-col-16 ant-form-item-control"
+            >
+              <div
+                class="ant-form-item-control-input"
+              >
+                <div
+                  class="ant-form-item-control-input-content"
+                >
+                  <input
+                    class="ant-input"
+                    id="input2"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ant-col ant-col-NaN"
+          style="padding-left: 12px; padding-right: 12px;"
+        >
+          <div
+            class="ant-row ant-form-item"
+          >
+            <div
+              class="ant-col ant-col-8 ant-form-item-label"
+            >
+              <label
+                class=""
+                for="input3"
+                title="label3"
+              >
+                label3
+              </label>
+            </div>
+            <div
+              class="ant-col ant-col-16 ant-form-item-control"
+            >
+              <div
+                class="ant-form-item-control-input"
+              >
+                <div
+                  class="ant-form-item-control-input-content"
+                >
+                  <input
+                    class="ant-input"
+                    id="input3"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ant-col ant-col-NaN"
+          style="padding-left: 12px; padding-right: 12px;"
+        >
+          <div
+            class="ant-row ant-form-item"
+            style="margin-bottom: 0px;"
+          >
+            <div
+              class="ant-col ant-col-16 ant-col-offset-8 ant-form-item-control"
+            >
+              <div
+                class="ant-form-item-control-input"
+              >
+                <div
+                  class="ant-form-item-control-input-content"
+                >
+                  <div
+                    class="sula-form-action-default"
+                  >
+                    <div
+                      class="ant-space ant-space-horizontal ant-space-align-center"
+                    >
+                      <div
+                        class="ant-space-item"
+                        style="margin-right: 8px;"
+                      >
+                        <button
+                          class="ant-btn ant-btn-primary"
+                          type="button"
+                        >
+                          <span>
+                            Submit
+                          </span>
+                        </button>
+                      </div>
+                      <div
+                        class="ant-space-item"
+                      >
+                        <button
+                          class="ant-btn"
+                          type="button"
+                        >
+                          <span>
+                            Cancel
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`createForm createForm view 1`] = `
+<div
+  class="ant-spin-nested-loading"
+>
+  <div
+    class="ant-spin-container"
+  >
+    <form
+      class="ant-form ant-form-horizontal"
+    >
+      <div
+        class="ant-row ant-form-item"
+      >
+        <div
+          class="ant-col ant-col-8 ant-form-item-label"
+        >
+          <label
+            class=""
+            for="input1"
+            title="label1"
+          >
+            label1
+          </label>
+        </div>
+        <div
+          class="ant-col ant-col-12 ant-form-item-control"
+        >
+          <div
+            class="ant-form-item-control-input"
+          >
+            <div
+              class="ant-form-item-control-input-content"
+            >
+              <input
+                class="ant-input ant-input-disabled"
+                disabled=""
+                id="input1"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-row ant-form-item"
+      >
+        <div
+          class="ant-col ant-col-8 ant-form-item-label"
+        >
+          <label
+            class=""
+            for="input2"
+            title="label2"
+          >
+            label2
+          </label>
+        </div>
+        <div
+          class="ant-col ant-col-12 ant-form-item-control"
+        >
+          <div
+            class="ant-form-item-control-input"
+          >
+            <div
+              class="ant-form-item-control-input-content"
+            >
+              <input
+                class="ant-input ant-input-disabled"
+                disabled=""
+                id="input2"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-row ant-form-item"
+      >
+        <div
+          class="ant-col ant-col-8 ant-form-item-label"
+        >
+          <label
+            class=""
+            for="input3"
+            title="label3"
+          >
+            label3
+          </label>
+        </div>
+        <div
+          class="ant-col ant-col-12 ant-form-item-control"
+        >
+          <div
+            class="ant-form-item-control-input"
+          >
+            <div
+              class="ant-form-item-control-input-content"
+            >
+              <input
+                class="ant-input ant-input-disabled"
+                disabled=""
+                id="input3"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-row ant-form-item"
+        style="margin-bottom: 0px;"
+      >
+        <div
+          class="ant-col ant-col-12 ant-col-offset-8 ant-form-item-control"
+        >
+          <div
+            class="ant-form-item-control-input"
+          >
+            <div
+              class="ant-form-item-control-input-content"
+            >
+              <div
+                class="sula-form-action-default"
+              >
+                <button
+                  class="ant-btn"
+                  type="button"
+                >
+                  <span>
+                    Back
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+`;

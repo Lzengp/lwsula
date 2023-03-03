@@ -1,0 +1,44 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "dumi dev",
+    "build": "dumi build",
+    "pack": "father-build && node ./scripts/clean-build.js",
+    "postinstall": "npm run bootstrap",
+    "bootstrap": "lerna bootstrap",
+    "test": "npm run test:unit",
+    "test:unit": "umi-test 'test.(j|t)s' --coverage",
+    "test:update": "umi-test 'test.(j|t)s' --coverage --updateSnapshot",
+    "test:watch": "umi-test 'test.(j|t)s' --coverage --watch",
+    "predeploy": "npm run build",
+    "deploy": "now deploy ./dist -n sula --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umijs/sula.git"
+  },
+  "bugs": {
+    "url": "https://github.com/umijs/sula/issues"
+  },
+  "devDependencies": {
+    "@ant-design/icons": "^4.1.0",
+    "@sula/charts": "^1.0.0-alpha.0",
+    "@umijs/fabric": "^2.0.8",
+    "@umijs/plugin-locale": "^0.10.9",
+    "antd": "4.3.4",
+    "babel-plugin-import": "^1.13.0",
+    "cross-env": "^7.0.2",
+    "del": "^5.1.0",
+    "dumi": "^1.0.15",
+    "enzyme-to-json": "^3.4.4",
+    "eslint": "^6.8.0",
+    "father-build": "^1.19.1",
+    "lerna": "^3.20.2",
+    "mockdate": "^2.0.5",
+    "mockjs": "^1.1.0",
+    "react-live": "^2.2.2",
+    "umi-request": "^1.3.5",
+    "umi-test": "^1.9.6"
+  }
+}
