@@ -31,7 +31,7 @@ jobs:
         run: |
           git config --global user.name "longwei"
           git config --global user.email "1786082175@qq.com"
-          git clone github.com/Lzengp/lwsula.git .deploy_git
+          git clone https://${GH_REF} .deploy_git
           cd .deploy_git
           git checkout gh-pages
           cd ../
