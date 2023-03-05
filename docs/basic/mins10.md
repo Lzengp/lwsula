@@ -6,7 +6,23 @@ title: 十分钟快速开始
 order: 0
 ---
 
-## sula带你十分钟完成crud
+# **前提说明**
+
+此组件库为高捷前端官方组件库，基于[sula](https://github.com/umijs/sula)二次封装
+
+请将所以
+```js
+import {} from sula
+```
+改成
+```js
+import {} from gjsula
+```
+
+其他的安装和使用方式请按照以下文档说明进行操作
+
+# **正文**
+## gjsula带你十分钟完成crud
 
 ### 起步
 
@@ -489,9 +505,9 @@ interface ColumnsProps = {
   [key: string]: AntdColumnsProps; // antd table columns透传属性
 }
 ```
-初始代码
+<!-- 初始代码 -->
 
-```js
+<!-- ```js
 // pages/index.tsx
 import React from 'react';
 import { QueryTable } from 'sula';
@@ -532,8 +548,8 @@ export default () => {
     />
   )
 }
-```
-
+``` -->
+<!-- 
 ```jsx
 // pages/index.tsx
 import React from 'react';
@@ -575,7 +591,7 @@ export default () => {
     />
   )
 }
-```
+``` -->
 
 **添加初始化数据**
 - remoteDataSource：表格值接口请求

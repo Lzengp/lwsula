@@ -16,10 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/umijs/sula.git"
+    "url": "https://github.com/Lzengp/lwsula"
   },
   "bugs": {
-    "url": "https://github.com/umijs/sula/issues"
+    "url": "https://github.com/Lzengp/lwsula/issues"
   },
   "devDependencies": {
     "@ant-design/icons": "^4.1.0",

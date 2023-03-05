@@ -1,21 +1,8 @@
-简体中文 | [English](https://github.com/umijs/sula/blob/master/README.en-US.md)
+简体中文
 
 # sula (beta)
 
 > Sula 当前还处于 beta 社区内测阶段，建议在对内生产项目使用，对外生产项目暂时不要使用。
-
-## 旧文档地址
-
-- https://sula.vercel.app/
-
-## 里程碑
-
-非常抱歉，由于最近业务爆发导致没有按照既定里程碑发布 sula 1.0 和 builder，我们根据目前看到业务排期修改里程碑，如下，
-
-- 10月30日：发布 1.0 正式版，以及配套文档
-- 11月6日：开源 Sula Builder 前端部分（后端部分还无法给出准确时间点）
-
-[![codecov](https://codecov.io/gh/umijs/sula/branch/master/graph/badge.svg)](https://codecov.io/gh/umijs/sula) [![GitHub Actions status](https://github.com/umijs/sula/workflows/Node%20CI/badge.svg)](https://github.com/umijs/sula) ![npm](https://img.shields.io/npm/v/sula) ![npm](https://img.shields.io/npm/dm/sula)
 
 ## 特点
 
@@ -26,23 +13,7 @@
 - 📦 **开箱即用**，sula 内置请求插件与灵活扩展点、国际化，路由等能力，让开发者更加专注核心功能的开发。
 - 📀 **自动 loading**，sula 不侵入式帮助用户完成按钮、超链接、图标点击过程的 loading 管理。
 
-## 📺 视频教程
 
-- [表单快速配置](https://www.bilibili.com/video/BV1rC4y1p71m/) 3分钟
-- [查询表格快速配置](https://www.bilibili.com/video/BV1qA411q7kb/) 4分钟
-- [Sula-Cooker 的使用](https://www.bilibili.com/video/BV1jz4y197EG/) 3分钟
-
-## 🔥 Sula 可视化搭建平台（尝鲜版）
-
-- [sula-builder](https://build.sula.now.sh)
-
-## 🍳 Sula 在线配置化工具
-
-仅通过 JSON 配置就可以完成整个项目的「产品级配置」。
-
-- [sula-cooker](https://cook.sula.now.sh)
-
-<div>
   <img src="https://img.alicdn.com/tfs/TB1l6A_HXY7gK0jSZKzXXaikpXa-2680-1412.png" width="49%"/>
   <img src="https://img.alicdn.com/tfs/TB1VWE5HkT2gK0jSZFkXXcIQFXa-2682-1412.png" width="49%"/>
 </div>
@@ -74,14 +45,3 @@ import { Form, Table, CreateForm, QueryTable, StepForm, StepQueryTable } from 's
 - [ ] 最终的模板设计
 - [ ] 更好的 typescript 支持
 - [ ] 文档
-
-## 🔗 友情链接
-
-- [Sula Blogs](https://zhuanlan.zhihu.com/sulajs)
-
-
-## 讨论群
-
-<div>
-  <img src="https://img.alicdn.com/imgextra/i4/O1CN01YCq5ye21DbizEsE8e_!!6000000006951-2-tps-828-1068.png" width="300" />
-</div>
