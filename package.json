@@ -47,5 +47,8 @@
     "react-live": "^2.2.2",
     "umi-request": "^1.3.5",
     "umi-test": "^1.9.6"
+  },
+  "engines": {
+    "node": "14.21.1"
   }
 }

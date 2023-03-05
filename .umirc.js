@@ -9,6 +9,7 @@ export default defineConfig({
     '@c-primary': '#ef7304',
   },
   description: '高捷前端组件库',
+  homepage: "https://lwsula.vercel.app",
   mode: 'site',
   // 单语言配置方式如下
   navs: [
