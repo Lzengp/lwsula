@@ -2,14 +2,11 @@ import { join } from 'path';
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
-  base: '/lwsula',
-  publicPath: '/lwsula/',
   theme: {
     // 修改 dumi 默认主题的主色，更多变量详见：https://github.com/umijs/dumi/blob/1.x/packages/theme-default/src/style/variables.less
     '@c-primary': '#ef7304',
   },
   description: '高捷前端组件库',
-  // homepage: "https://lwsula.vercel.app",
   mode: 'site',
   // 单语言配置方式如下
   navs: [
