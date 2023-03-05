@@ -40,5 +40,9 @@
     "react-live": "^2.2.2",
     "umi-request": "^1.3.5",
     "umi-test": "^1.9.6"
+  },
+  "dependencies": {
+    "react-media": "^1.10.0",
+    "tplstr": "^1.0.2"
   }
 }

@@ -16,7 +16,7 @@ function getLocaleData() {
 
   let locale;
   try {
-    locale = require(`sula/es/localereceiver/${langFile}`);
+    locale = require(`lzengp-sula/es/localereceiver/${langFile}`);
     locale = locale.default || locale;
   } catch (error) {}
   return locale;
