@@ -16,7 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/lzengp/lwsula.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lzengp/lwsula/issues"
   },
   "devDependencies": {
     "@ant-design/icons": "^4.1.0",
