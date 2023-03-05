@@ -19,7 +19,7 @@ import {} from sula
 import {} from gjsula
 ```
 
-其他的安装和使用方式请按照以下文档说明进行操作-1
+其他的安装和使用方式请按照以下文档说明进行操作
 
 # **正文**
 ## gjsula带你十分钟完成crud

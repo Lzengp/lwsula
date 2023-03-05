@@ -4,7 +4,6 @@ import { defineConfig } from 'dumi';
 export default defineConfig({
   base: '/lwsula',
   publicPath: '/lwsula/',
-  outputPath: 'docs',
   theme: {
     // 修改 dumi 默认主题的主色，更多变量详见：https://github.com/umijs/dumi/blob/1.x/packages/theme-default/src/style/variables.less
     '@c-primary': '#ef7304',
