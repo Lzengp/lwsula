@@ -1,8 +1,10 @@
 import { join } from 'path';
+import { defineConfig } from 'dumi';
 
-export default {
+export default defineConfig({
   base: '/lwsula',
   publicPath: '/lwsula/',
+  outputPath: 'docs',
   theme: {
     // 修改 dumi 默认主题的主色，更多变量详见：https://github.com/umijs/dumi/blob/1.x/packages/theme-default/src/style/variables.less
     '@c-primary': '#ef7304',
@@ -85,4 +87,4 @@ export default {
   // styles: [`a[title='站长统计'] { display: none; }`],
   headScripts: ['https://v1.cnzz.com/z_stat.php?id=1278602214&web_id=1278602214'],
   logo: 'https://gaojie-oss.oss-cn-shenzhen.aliyuncs.com/contract/pact/initAttachment/202303040043431321631696866668232706.png'
-};
+});
