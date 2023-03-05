@@ -11,7 +11,7 @@
  */
 
 import React from 'react';
-import { Form } from 'sula';
+import { Form } from 'lzengp-sula';
 import { Button } from 'antd';
 
 

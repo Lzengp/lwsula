@@ -1,5 +1,5 @@
 import React from 'react';
-import { QueryTable } from 'sula';
+import { QueryTable } from 'lzengp-sula';
 
 const queryFields = Array(10)
   .fill(0)

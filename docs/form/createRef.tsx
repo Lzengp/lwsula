@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'antd';
-import { Form, Field, FormAction, FieldGroup, FormInstance } from 'sula';
+import { Form, Field, FormAction, FieldGroup, FormInstance } from 'lzengp-sula';
 
 export default class CreateRefDemo extends React.Component {
   formRef = React.createRef<FormInstance>();

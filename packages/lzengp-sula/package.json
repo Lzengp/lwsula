@@ -1,10 +1,10 @@
 {
-  "name": "sula",
+  "name": "lzengp-sula",
   "version": "1.2.0-beta.62",
   "module": "./es/index.js",
   "main": "./es/index.js",
   "types": "./es/index.d.ts",
-  "description": "sula",
+  "description": "lzengp-sula",
   "peerDependencies": {
     "@ant-design/icons": "^4.0.0",
     "antd": "^4.0.0",

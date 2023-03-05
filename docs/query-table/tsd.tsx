@@ -1,5 +1,5 @@
 import React from 'react';
-import { QueryTable, QueryTableProps } from 'sula';
+import { QueryTable, QueryTableProps } from 'lzengp-sula';
 
 const queryFields: QueryTableProps['fields'] = Array(10)
   .fill(0)

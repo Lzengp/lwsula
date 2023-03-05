@@ -15,7 +15,7 @@ const config = {
     eslint: true,
     prettier: true,
   },
-  pkgs: ['sula','umi-plugin-sula','sula-charts'],
+  pkgs: ['lzengp-sula','umi-plugin-lzengp-sula'],
   extraBabelPlugins,
 };
 

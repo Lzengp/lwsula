@@ -1,5 +1,5 @@
 import React from 'react';
-import { CreateForm } from 'sula';
+import { CreateForm } from 'lzengp-sula';
 import ModeSwitcher from '../components/modeSwitcher';
 
 export default class BasicDemo extends React.Component {

@@ -15,7 +15,7 @@ sula 内置 [axios](https://github.com/axios/axios) 作为请求工具，提供�
 ```jsx
 import React from 'react';
 import { Button } from 'antd';
-import { request } from 'sula';
+import { request } from 'lzengp-sula';
 
 export default () => {
   const [result, setResult] = React.useState(null);
@@ -107,7 +107,7 @@ const config = {
 执行顺序在 convertParams 之后。
 
 ```js
-import { request } from 'sula';
+import { request } from 'lzengp-sula';
 request.use({
   bizParamsAdapter(params) {
     params.uuToken = '123456';
@@ -121,7 +121,7 @@ request.use({
 执行顺序在发出请求前，是所有请求发出前的钩子中最后执行的。
 
 ```js
-import { request } from 'sula';
+import { request } from 'lzengp-sula';
 request.use({
   bizRequestAdapter(requestConfig) {
     requestConfig.headers['X-Custom-Header'] = 'foo';

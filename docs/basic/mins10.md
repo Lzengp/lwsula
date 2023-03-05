@@ -76,7 +76,7 @@ import 'antd/dist/antd.less';
 ```js
 // pages/index.tsx
 import React from 'react';
-import { CreateForm } from 'sula';
+import { CreateForm } from 'lzengp-sula';
 
 export default () => {
   const config = {
@@ -99,7 +99,7 @@ export default () => {
 ```jsx
 // pages/index.tsx
 import React from 'react';
-import { CreateForm } from 'sula';
+import { CreateForm } from 'lzengp-sula';
 
 export default () => {
   const config = {
@@ -128,7 +128,7 @@ export default () => {
 
 ```diff
 import React from 'react';
-import { CreateForm } from 'sula';
+import { CreateForm } from 'lzengp-sula';
 
 export default () => {
 + const initialSource = [{
@@ -176,7 +176,7 @@ export default () => {
 
 ```jsx
 import React from 'react';
-import { CreateForm } from 'sula';
+import { CreateForm } from 'lzengp-sula';
 
 export default () => {
   const initialSource = [{
@@ -228,7 +228,7 @@ export default () => {
 
 ```diff
 import React from 'react';
-import { CreateForm } from 'sula';
+import { CreateForm } from 'lzengp-sula';
 
 export default () => {
   const initialSource = [{
@@ -289,7 +289,7 @@ export default () => {
 
 ```jsx
 import React from 'react';
-import { CreateForm } from 'sula';
+import { CreateForm } from 'lzengp-sula';
 
 export default () => {
   const initialSource = [{
@@ -357,7 +357,7 @@ export default () => {
 
 ```diff
 import React from 'react';
-import { CreateForm } from 'sula';
+import { CreateForm } from 'lzengp-sula';
 
 export default () => {
   const initialSource = [{
@@ -426,7 +426,7 @@ export default () => {
 
 ```jsx
 import React from 'react';
-import { CreateForm } from 'sula';
+import { CreateForm } from 'lzengp-sula';
 
 export default () => {
   const initialSource = [{
@@ -510,7 +510,7 @@ interface ColumnsProps = {
 <!-- ```js
 // pages/index.tsx
 import React from 'react';
-import { QueryTable } from 'sula';
+import { QueryTable } from 'lzengp-sula';
 
 export default () => {
   const fields = [{
@@ -553,7 +553,7 @@ export default () => {
 ```jsx
 // pages/index.tsx
 import React from 'react';
-import { QueryTable } from 'sula';
+import { QueryTable } from 'lzengp-sula';
 
 export default () => {
   const fields = [{
@@ -630,7 +630,7 @@ sula-table支持的期望数据格式
 
 ```diff
 import React from 'react';
-import { QueryTable } from 'sula';
+import { QueryTable } from 'lzengp-sula';
 
 export default () => {
   const fields = [{
@@ -697,7 +697,7 @@ export default () => {
 
 ```jsx
 import React from 'react';
-import { QueryTable } from 'sula';
+import { QueryTable } from 'lzengp-sula';
 
 export default () => {
   const fields = [{
@@ -769,7 +769,7 @@ export default () => {
 
 ```diff
 import React from 'react';
-import { QueryTable } from 'sula';
+import { QueryTable } from 'lzengp-sula';
 
 export default () => {
   const fields = [{
@@ -856,7 +856,7 @@ export default () => {
 
 ```jsx
 import React from 'react';
-import { QueryTable } from 'sula';
+import { QueryTable } from 'lzengp-sula';
 
 export default () => {
   const fields = [{
@@ -946,7 +946,7 @@ export default () => {
 
 ```js
 // global.ts
-import { Icon } from 'sula';
+import { Icon } from 'lzengp-sula';
 import { DeleteOutlined } from '@ant-design/icons';
 
 // 注册所需的icon
@@ -1011,7 +1011,7 @@ Icon.iconRegister({
 
 ```jsx
 import React from 'react';
-import { QueryTable, Icon } from 'sula';
+import { QueryTable, Icon } from 'lzengp-sula';
 import { DeleteOutlined } from '@ant-design/icons';
 
 Icon.iconRegister({
@@ -1165,7 +1165,7 @@ export default () => {
 
 ```jsx
 import React from 'react';
-import { QueryTable } from 'sula';
+import { QueryTable } from 'lzengp-sula';
 
 export default () => {
   const fields = [{
@@ -1326,7 +1326,7 @@ export default () => {
 ```
 ```jsx
 import React from 'react';
-import { QueryTable } from 'sula';
+import { QueryTable } from 'lzengp-sula';
 
 export default () => {
   const fields = [{
@@ -1474,7 +1474,7 @@ export default () => {
 
 - 注册示例如下
 ```js
-import { registerFieldPlugins, registerRenderPlugins, registerActionPlugins, registerFilterPlugins, Icon } from 'sula';
+import { registerFieldPlugins, registerRenderPlugins, registerActionPlugins, registerFilterPlugins, Icon } from 'lzengp-sula';
 import 'antd/dist/antd.css'; // 引入antd主题
 import { UserOutlined } from '@ant-design/icons';
 

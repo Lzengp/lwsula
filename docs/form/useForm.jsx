@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'antd';
-import { Form, useForm } from 'sula';
+import { Form, useForm } from 'lzengp-sula';
 
 const UseFormDemo = () => {
   const [form] = useForm();

@@ -5,7 +5,7 @@
  */
 
 import React from 'react';
-import { Form } from 'sula';
+import { Form } from 'lzengp-sula';
 
 export default class ValueCollectDemo extends React.Component {
   componentDidMount() {}

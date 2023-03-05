@@ -5,7 +5,7 @@
  */
 
 import React from 'react';
-import { Form, FieldGroup, Field, FormAction } from 'sula';
+import { Form, FieldGroup, Field, FormAction } from 'lzengp-sula';
 import LayoutSwitcher from '../components/layoutSwitcher';
 import ColumnsSwitcher from '../components/columnsSwitcher';
 import ActionsPositionSwitcher from '../components/actionsPositionSwitcher';

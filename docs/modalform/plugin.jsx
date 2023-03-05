@@ -5,7 +5,7 @@
  */
 
 import React from 'react';
-import { Table } from 'sula';
+import { Table } from 'lzengp-sula';
 
 export default class PluginDemo extends React.Component {
   componentDidMount() {}

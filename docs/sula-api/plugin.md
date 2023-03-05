@@ -23,7 +23,7 @@ npm i -S umi-plugin-sula
 
 ```js
 // global.ts
-import { Icon } from 'sula';
+import { Icon } from 'lzengp-sula';
 import { DeleteOutlined, AppstoreOutlined } from '@ant-design/icons';
 
 // 注册所需的icon
@@ -62,7 +62,7 @@ import { Input } from 'antd';
 import { 
   registerFieldPlugin,
   CreateForm,
-} from 'sula';
+} from 'lzengp-sula';
 
 // 注册自定义field插件 => testinput
 registerFieldPlugin('testinput')(Input);
@@ -108,7 +108,7 @@ import { Button } from 'antd';
 import { 
   registerRenderPlugin,
   CreateForm,
-} from 'sula';
+} from 'lzengp-sula';
 
 // 注册自定义render插件 => testButton
 registerRenderPlugin('testButton')(Button);
@@ -164,7 +164,7 @@ import React from 'react'
 import { 
   registerActionPlugin,
   CreateForm,
-} from 'sula';
+} from 'lzengp-sula';
 
 // 注册自定义action插件 => console
 registerActionPlugin('console', (ctx) => {
@@ -668,7 +668,7 @@ render: {
 组件使用
 ```js
 import React from 'react';
-import { Text } from 'sula';
+import { Text } from 'lzengp-sula';
 
 export default () => {
   return <Text type="danger">文本</Text>
@@ -736,7 +736,7 @@ render: [{
 组件使用
 ```js
 import React from 'react';
-import { Button } from 'sula';
+import { Button } from 'lzengp-sula';
 
 export default () => {
   return <Button icon="appstore" type="primary">按钮</Button>
@@ -768,7 +768,7 @@ render: {
 组件使用
 ```js
 import React from 'react';
-import { Icon } from 'sula';
+import { Icon } from 'lzengp-sula';
 
 export default () => {
   // appstore为注册过的icon
@@ -779,7 +779,7 @@ export default () => {
 
 icon的注册
 ```js
-import { Icon } from 'sula';
+import { Icon } from 'lzengp-sula';
 import { DeleteOutlined, AppstoreOutlined } from '@ant-design/icons';
 
 Icon.iconRegister({

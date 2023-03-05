@@ -1,5 +1,5 @@
 import React from 'react';
-import { StepForm } from 'sula';
+import { StepForm } from 'lzengp-sula';
 import { Button } from 'antd';
 
 const steps = [

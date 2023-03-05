@@ -1,5 +1,5 @@
 import React from 'react';
-import { CreateForm } from 'sula';
+import { CreateForm } from 'lzengp-sula';
 
 export default class BasicDemo extends React.Component {
   componentDidMount() {}

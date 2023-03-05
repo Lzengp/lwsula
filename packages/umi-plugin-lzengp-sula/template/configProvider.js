@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider } from 'sula';
+import { ConfigProvider } from 'lzengp-sula';
 import { history, getLocale } from 'umi';
 
 const baseSeparator = '{{{baseSeparator}}}' || '-';

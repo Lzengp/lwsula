@@ -7,7 +7,7 @@
 
 import React from 'react';
 import { Button } from 'antd';
-import { ModalForm } from 'sula';
+import { ModalForm } from 'lzengp-sula';
 
 export default () => {
   const ref = React.useRef(null);
