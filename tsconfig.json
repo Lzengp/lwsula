@@ -11,7 +11,7 @@
     "strict": true,
     "paths": {
       "@/*": ["src/*"],
-      "sula": ["./packages/sula/src/index.ts"]
+      "lzengp-sula": ["./packages/lzengp-sula/src/index.ts"]
     },
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,

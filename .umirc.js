@@ -73,9 +73,9 @@ export default defineConfig({
       },
     ],
   ],
-  alias: {
-    '@sula/charts': join(__dirname, './packages/sula-charts/src'),
-  },
+  // alias: {
+  //   '@sula/charts': join(__dirname, './packages/sula-charts/src'),
+  // },
   title: 'GoldJet',
   exportStatic: {},
   resolve: {

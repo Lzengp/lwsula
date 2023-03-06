@@ -26,7 +26,7 @@ order: 1
 ```js
 // 全局注册
 import React from 'react';
-import { registerFieldPlugin, request } from './packages/sula/src/index';
+import { registerFieldPlugin, request } from './packages/lzengp-sula/src/index';
 import { Select } from 'antd';
 
 const RemoteSearch = (props) => {

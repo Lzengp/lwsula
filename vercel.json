@@ -4,7 +4,7 @@
     "silent": true
   },
   "scope": "umijs",
-  "name": "sula",
+  "name": "lzengp-sula",
   "builds": [
     {
       "src": "package.json",
