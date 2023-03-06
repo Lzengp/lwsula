@@ -1,6 +1,6 @@
 {
   "name": "lzengp-sula",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "module": "./es/index.js",
   "main": "./es/index.js",
   "types": "./es/index.d.ts",
