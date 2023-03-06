@@ -26,7 +26,7 @@ order: 1
 ```js
 // 全局注册
 import React from 'react';
-import { registerFieldPlugin, request } from './packages/lzengp-sula/src/index';
+import { registerFieldPlugin, request } from './packages/lzengpsula/src/index';
 import { Select } from 'antd';
 
 const RemoteSearch = (props) => {
@@ -93,7 +93,7 @@ registerFieldPlugin('customremotesearch')(RemoteSearch, true, true);
  *   场景：类型不为空，为 `水果` 的表单项显示，否则隐藏
  */
 import React from 'react';
-import { CreateForm } from 'lzengp-sula';
+import { CreateForm } from 'lzengpsula';
 
 export default () => {
   const config = {
@@ -158,7 +158,7 @@ export default () => {
  *  场景：类型输入 `绿色`，为 `水果` 和 `蔬菜`表单项均显示，否则均隐藏
  */
 import React from 'react';
-import { Form } from 'lzengp-sula';
+import { Form } from 'lzengpsula';
 
 export default () => {
   const config = {
@@ -224,7 +224,7 @@ export default () => {
  *  场景：类型输入不为空，口感输入 `酸甜`, 为 `水果` 表单项显示，否则隐藏
  */
 import React from 'react';
-import { Form } from 'lzengp-sula';
+import { Form } from 'lzengpsula';
 
 export default () => {
   const config = {
@@ -282,7 +282,7 @@ export default () => {
  *  场景：类型输入 `蔬菜`，为 `groups`的组显示，否则隐藏
  */
 import React from 'react';
-import { Form } from 'lzengp-sula';
+import { Form } from 'lzengpsula';
 
 export default () => {
   const config = {
@@ -341,7 +341,7 @@ export default () => {
  *  场景：类型输入 `水果`，为 `水果` 表单项数据源不为空，否则为空
  */
 import React from 'react';
-import { Form } from 'lzengp-sula';
+import { Form } from 'lzengpsula';
 
 export default () => {
   const selectSource = [
@@ -398,7 +398,7 @@ export default () => {
  *  场景：类型输入 `水果`，为 `水果` 的表单项数据源类型为水果；类型输入 `蔬菜`, 为 `蔬菜` 的表单项数据源类型为蔬菜
  */
 import React from 'react';
-import { Form } from 'lzengp-sula';
+import { Form } from 'lzengpsula';
 
 export default () => {
   const fruiltSource = [
@@ -471,7 +471,7 @@ export default () => {
  *  场景：类型输入 `水果`，`水果` 表单项数据源不为空，否则为空`（可查看接口请求参数）`
  */
 import React from 'react';
-import { Form } from 'lzengp-sula';
+import { Form } from 'lzengpsula';
 
 export default () => {
   const config = {
@@ -529,7 +529,7 @@ export default () => {
  *  场景：姓名输入 `林俊杰` 或 `周杰伦`，`职业` 表单项的值为`歌手`，否则为空
  */
 import React from 'react';
-import { Form } from 'lzengp-sula';
+import { Form } from 'lzengpsula';
 
 export default () => {
   const config = {
@@ -577,7 +577,7 @@ export default () => {
  *  场景：热搜输入 `街头`，`内容` 表单项不可编辑`歌手`，否则可编辑
  */
 import React from 'react';
-import { Form } from 'lzengp-sula';
+import { Form } from 'lzengpsula';
 
 export default () => {
   const config = {
@@ -624,7 +624,7 @@ export default () => {
  *  场景：类型输入 `健康`，颜色输入`绿色`，`水果` 表单项显示，否则隐藏
  */
 import React from 'react';
-import { Form } from 'lzengp-sula';
+import { Form } from 'lzengpsula';
 
 export default () => {
   const config = {

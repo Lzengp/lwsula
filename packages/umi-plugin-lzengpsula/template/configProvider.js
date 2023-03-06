@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider } from 'lzengp-sula';
+import { ConfigProvider } from 'lzengpsula';
 import { history, getLocale } from 'umi';
 
 const baseSeparator = '{{{baseSeparator}}}' || '-';
@@ -16,7 +16,7 @@ function getLocaleData() {
 
   let locale;
   try {
-    locale = require(`lzengp-sula/es/localereceiver/${langFile}`);
+    locale = require(`lzengpsula/es/localereceiver/${langFile}`);
     locale = locale.default || locale;
   } catch (error) {}
   return locale;

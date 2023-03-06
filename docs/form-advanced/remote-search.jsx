@@ -3,7 +3,7 @@
  */
 
 import React from 'react';
-import { Form } from 'lzengp-sula';
+import { Form } from 'lzengpsula';
 
 export default class RemoteSearchDemo extends React.Component {
   componentDidMount() {}

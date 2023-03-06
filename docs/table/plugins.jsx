@@ -1,6 +1,6 @@
 import React from 'react';
 import { LikeOutlined, EditOutlined, DeleteOutlined } from '@ant-design/icons';
-import { Table } from 'lzengp-sula';
+import { Table } from 'lzengpsula';
 
 const status = [
   {

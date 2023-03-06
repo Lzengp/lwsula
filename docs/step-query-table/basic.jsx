@@ -1,5 +1,5 @@
 import React from 'react';
-import { StepQueryTable } from 'lzengp-sula';
+import { StepQueryTable } from 'lzengpsula';
 
 const queryFields = Array(10)
   .fill(0)

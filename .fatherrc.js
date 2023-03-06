@@ -15,7 +15,7 @@ const config = {
     eslint: true,
     prettier: true,
   },
-  pkgs: ['lzengp-sula','umi-plugin-lzengp-sula'],
+  pkgs: ['lzengpsula','umi-plugin-lzengpsula'],
   extraBabelPlugins,
 };
 

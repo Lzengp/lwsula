@@ -37,7 +37,7 @@ export default function (api: IApi) {
 
   api.addEntryCodeAhead(() =>
     `
-import { registerFieldPlugins, registerRenderPlugins, registerActionPlugins, registerFilterPlugins } from 'lzengp-sula';
+import { registerFieldPlugins, registerRenderPlugins, registerActionPlugins, registerFilterPlugins } from 'lzengpsula';
 
 registerFieldPlugins();
 registerRenderPlugins();

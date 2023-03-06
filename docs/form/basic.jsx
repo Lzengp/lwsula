@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from 'antd';
 import { UploadOutlined } from '@ant-design/icons';
-import { Form } from 'lzengp-sula';
+import { Form } from 'lzengpsula';
 
 const initialSource = [
   {

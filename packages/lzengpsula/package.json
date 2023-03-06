@@ -1,10 +1,10 @@
 {
-  "name": "lzengp-sula",
+  "name": "lzengpsula",
   "version": "1.2.4",
   "module": "./es/index.js",
   "main": "./es/index.js",
   "types": "./es/index.d.ts",
-  "description": "lzengp-sula",
+  "description": "lzengpsula",
   "peerDependencies": {
     "@ant-design/icons": "^4.0.0",
     "antd": "^4.0.0",

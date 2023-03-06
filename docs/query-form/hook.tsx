@@ -1,5 +1,5 @@
 import React from 'react';
-import { useForm, QueryForm } from 'lzengp-sula';
+import { useForm, QueryForm } from 'lzengpsula';
 
 const queryFields = Array(10)
   .fill(0)

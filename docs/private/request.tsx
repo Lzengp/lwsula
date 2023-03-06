@@ -1,6 +1,6 @@
 import React from 'react';
 import umiRequest, { RequestOptionsInit } from 'umi-request';
-import { request } from 'lzengp-sula';
+import { request } from 'lzengpsula';
 import BasicQueryTable from '../query-table/basic';
 
 export default () => {

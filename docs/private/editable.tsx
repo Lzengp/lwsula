@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, FormList, Field } from 'lzengp-sula';
+import { Form, FormList, Field } from 'lzengpsula';
 import { Table, Button, Space } from 'antd';
 
 export default class EditableTableDemo extends React.Component {

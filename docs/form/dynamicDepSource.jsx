@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form } from 'lzengp-sula';
+import { Form } from 'lzengpsula';
 
 export default class DynamicDepDemo extends React.Component {
   ref = React.createRef();
