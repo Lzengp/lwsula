@@ -20,7 +20,7 @@ export default function (api: IApi) {
   });
 
   api.onGenerateFiles(() => {
-    const { locale = {} } = api.config.sula;
+    const { locale = {} } = api.config.lzengpsula;
     const configProviderTpl = readFileSync(
       join(__dirname, '../template/configProvider.js'),
       'utf-8',
