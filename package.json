@@ -14,13 +14,6 @@
     "predeploy": "npm run build",
     "deploy": "now deploy ./dist -n lzengpsula --prod"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lzengp/lwsula.git"
-  },
-  "bugs": {
-    "url": "https://github.com/lzengp/lwsula/issues"
-  },
   "devDependencies": {
     "@ant-design/icons": "^4.1.0",
     "@umijs/fabric": "^2.0.8",
