@@ -4,7 +4,7 @@ import { readFileSync, writeFileSync } from 'fs';
 
 export default function (api: IApi) {
   api.describe({
-    key: 'sula',
+    key: 'lzengpsula',
     config: {
       schema(joi) {
         return joi.object({
