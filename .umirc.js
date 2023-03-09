@@ -51,8 +51,8 @@ export default defineConfig({
   ],
   favicon: 'https://gaojie-oss.oss-cn-shenzhen.aliyuncs.com/contract/pact/initAttachment/202303040043431321631696866668232706.png',
 
-  plugins: [join(__dirname, './packages/umi-plugin-lzengpsula/src')],
-  lzengpsula: {
+  plugins: [join(__dirname, './packages/umi-plugin-goldjetsula/src')],
+  goldjetsula: {
     locale: {
       default: 'zh-CN',
     },

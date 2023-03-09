@@ -1,5 +1,5 @@
 import React from 'react';
-import { StepQueryTable } from 'lzengpsula';
+import { StepQueryTable } from 'goldjetsula';
 
 const queryFields = Array(10)
   .fill(0)
@@ -114,7 +114,7 @@ const actions = [
 ];
 
 export default class BasicDemo extends React.Component {
-  componentDidMount() {}
+  componentDidMount() { }
 
   render() {
     return (

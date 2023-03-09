@@ -10,8 +10,12 @@
     "baseUrl": ".",
     "strict": true,
     "paths": {
-      "@/*": ["src/*"],
-      "lzengpsula": ["./packages/lzengpsula/src/index.ts"]
+      "@/*": [
+        "src/*"
+      ],
+      "goldjetsula": [
+        "./packages/goldjetsula/src/index.ts"
+      ]
     },
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,

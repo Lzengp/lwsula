@@ -1,6 +1,6 @@
 /* istanbul ignore file */
 import React from 'react';
-import { Icon, registerFieldPlugin, Field, request } from './packages/lzengpsula/src/index';
+import { Icon, registerFieldPlugin, Field, request } from './packages/goldjetsula/src/index';
 import {
   TabletFilled,
   AppstoreOutlined,
@@ -129,7 +129,7 @@ registerFieldPlugin('dynamicdepfieldcomp')(DynamicDepFieldComp);
 const RemoteSearch = (props) => {
   const { source = [], ctx, value, onChange, placeholder } = props;
   const handleSearch = (q) => {
-    if(!q) {
+    if (!q) {
       return;
     }
     request({
@@ -138,13 +138,13 @@ const RemoteSearch = (props) => {
         q,
       },
     }).then(() => {
-      
+
 
       ctx.form.setFieldSource(ctx.name, Array(10).fill(0).map((_, index) => {
         return {
           text: `商品_${q}_${index}`,
           value: `价格_${q}_${index}`,
-        }
+        };
       }));
     });
   };

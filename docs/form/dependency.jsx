@@ -11,14 +11,14 @@
  */
 
 import React from 'react';
-import { Form } from 'lzengpsula';
+import { Form } from 'goldjetsula';
 import { Button } from 'antd';
 
 
 export default class DependencyDemo extends React.Component {
   formRef = React.createRef();
 
-  componentDidMount() {}
+  componentDidMount() { }
 
   render() {
     return (
@@ -74,7 +74,7 @@ export default class DependencyDemo extends React.Component {
                   type: (ctx) => {
                     if (ctx.values[0] === '9527') {
                       ctx.form.setFieldValue(ctx.name, '9527');
-                    } 
+                    }
                   },
                 },
               },

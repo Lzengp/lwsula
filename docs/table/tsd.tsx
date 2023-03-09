@@ -1,6 +1,6 @@
 import React from 'react';
 import { LikeOutlined, EditOutlined, DeleteOutlined } from '@ant-design/icons';
-import { Table, TableProps } from 'lzengpsula';
+import { Table, TableProps } from 'goldjetsula';
 
 const status = [
   {
@@ -146,7 +146,7 @@ const actionsRender = [
 ];
 
 export default class BasicDemo extends React.Component {
-  componentDidMount() {}
+  componentDidMount() { }
 
   render() {
     return (

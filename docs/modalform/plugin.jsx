@@ -5,10 +5,10 @@
  */
 
 import React from 'react';
-import { Table } from 'lzengpsula';
+import { Table } from 'goldjetsula';
 
 export default class PluginDemo extends React.Component {
-  componentDidMount() {}
+  componentDidMount() { }
 
   render() {
     return (

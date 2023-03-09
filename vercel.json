@@ -4,15 +4,20 @@
     "silent": true
   },
   "scope": "umijs",
-  "name": "lzengpsula",
+  "name": "goldjetsula",
   "builds": [
     {
       "src": "package.json",
       "use": "@vercel/static-build",
-      "config": { "distDir": ".doc" }
+      "config": {
+        "distDir": ".doc"
+      }
     }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/dist/$1" }
+    {
+      "src": "/(.*)",
+      "dest": "/dist/$1"
+    }
   ]
 }

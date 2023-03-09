@@ -1,5 +1,5 @@
 import React from 'react';
-import { QueryForm } from 'lzengpsula';
+import { QueryForm } from 'goldjetsula';
 
 const queryFields = Array(10)
   .fill(0)
@@ -14,7 +14,7 @@ const queryFields = Array(10)
 export default class BasicDemo extends React.Component {
   state = {};
 
-  componentDidMount() {}
+  componentDidMount() { }
 
   changevisibleFieldsCount = (v) => {
     this.setState({ visibleFieldsCount: v });

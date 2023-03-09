@@ -5,10 +5,10 @@
  */
 
 import React from 'react';
-import { Form } from 'lzengpsula';
+import { Form } from 'goldjetsula';
 
 export default class ValueCollectDemo extends React.Component {
-  componentDidMount() {}
+  componentDidMount() { }
 
   render() {
     return (
@@ -39,10 +39,10 @@ export default class ValueCollectDemo extends React.Component {
                 source: {
                   relates: ['category'],
                   type: (ctx) => {
-                    if(ctx.values[0] === 'fruites') {
-                      ctx.form.setFieldSource(ctx.name, [{text: '苹果 🍎', value: 'apple'}]);
+                    if (ctx.values[0] === 'fruites') {
+                      ctx.form.setFieldSource(ctx.name, [{ text: '苹果 🍎', value: 'apple' }]);
                     } else {
-                      ctx.form.setFieldSource(ctx.name, [{text: '西红柿 🍅', value: 'tomato'}]);
+                      ctx.form.setFieldSource(ctx.name, [{ text: '西红柿 🍅', value: 'tomato' }]);
                     }
                   }
                 }
@@ -57,7 +57,7 @@ export default class ValueCollectDemo extends React.Component {
                   type: 'primary',
                   children: 'submit',
                 },
-                action({form}) {
+                action({ form }) {
                   form.validateFields().then(values => {
                     console.log('values', values);
                   })

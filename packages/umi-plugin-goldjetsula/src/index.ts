@@ -4,7 +4,7 @@ import { readFileSync, writeFileSync } from 'fs';
 
 export default function (api: IApi) {
   api.describe({
-    key: 'lzengpsula',
+    key: 'goldjetsula',
     config: {
       schema(joi) {
         return joi.object({
@@ -20,7 +20,7 @@ export default function (api: IApi) {
   });
 
   api.onGenerateFiles(() => {
-    const { locale = {} } = api.config.lzengpsula;
+    const { locale = {} } = api.config.goldjetsula;
     const configProviderTpl = readFileSync(
       join(__dirname, '../template/configProvider.js'),
       'utf-8',
@@ -37,7 +37,7 @@ export default function (api: IApi) {
 
   api.addEntryCodeAhead(() =>
     `
-import { registerFieldPlugins, registerRenderPlugins, registerActionPlugins, registerFilterPlugins } from 'lzengpsula';
+import { registerFieldPlugins, registerRenderPlugins, registerActionPlugins, registerFilterPlugins } from 'goldjetsula';
 
 registerFieldPlugins();
 registerRenderPlugins();

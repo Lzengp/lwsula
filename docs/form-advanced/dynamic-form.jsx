@@ -5,7 +5,7 @@
  */
 
 import React from 'react';
-import { Form } from 'lzengpsula';
+import { Form } from 'goldjetsula';
 import { Button } from 'antd';
 
 export default class ValueCollectDemo extends React.Component {
@@ -13,7 +13,7 @@ export default class ValueCollectDemo extends React.Component {
     templates: [],
   }
 
-  componentDidMount() {}
+  componentDidMount() { }
 
   render() {
     const { templates } = this.state;
@@ -57,7 +57,7 @@ export default class ValueCollectDemo extends React.Component {
                   type: 'primary',
                   children: 'submit',
                 },
-                action({form}) {
+                action({ form }) {
                   form.validateFields().then(values => {
                     console.log('values', values);
                   })

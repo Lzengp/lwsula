@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form } from 'lzengpsula';
+import { Form } from 'goldjetsula';
 
 const initialSource = [
   {
@@ -15,7 +15,7 @@ const initialSource = [
 export default class DynamicDemo extends React.Component {
   ref = React.createRef();
 
-  componentDidMount() {}
+  componentDidMount() { }
 
   render() {
     return (

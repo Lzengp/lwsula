@@ -1,6 +1,6 @@
 import React from 'react';
 import umiRequest, { RequestOptionsInit } from 'umi-request';
-import { request } from 'lzengpsula';
+import { request } from 'goldjetsula';
 import BasicQueryTable from '../query-table/basic';
 
 export default () => {
@@ -21,12 +21,12 @@ export default () => {
         request({
           url: 'https://jsonplaceholder.typicode.com/posts/1',
           method: 'GET',
-          convertParams: ({params}) => {
-            return Object.assign({name: 'sula'}, params);
+          convertParams: ({ params }) => {
+            return Object.assign({ name: 'sula' }, params);
           }
         }).then((data) => {
           console.log('data: ', data);
-        })
+        });
       }}>
         发起请求测试
       </button>
@@ -35,12 +35,12 @@ export default () => {
         request<RequestOptionsInit>({
           url: 'https://jsonplaceholder.typicode.com/posts/1',
           method: 'GET',
-          convertParams: ({params}) => {
-            return Object.assign({name: 'sula'}, params);
+          convertParams: ({ params }) => {
+            return Object.assign({ name: 'sula' }, params);
           }
         }).then((data) => {
           console.log('data: ', data);
-        })
+        });
       }}>
         发起请求测试2
       </button>

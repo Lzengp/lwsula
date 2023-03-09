@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form } from 'lzengpsula';
+import { Form } from 'goldjetsula';
 
 export default class Editable2Demo extends React.Component {
   ref = React.createRef();
@@ -42,12 +42,12 @@ export default class Editable2Demo extends React.Component {
             mode === 'create'
               ? {}
               : {
-                  school: '大学',
-                  students: [
-                    { province: 'zhejiang', city: 'hangzhou', address: 'abc胡同' },
-                    { province: 'hubei', city: 'wuhan' },
-                  ],
-                }
+                school: '大学',
+                students: [
+                  { province: 'zhejiang', city: 'hangzhou', address: 'abc胡同' },
+                  { province: 'hubei', city: 'wuhan' },
+                ],
+              }
           }
           mode={mode}
           key={mode}
@@ -108,7 +108,7 @@ export default class Editable2Demo extends React.Component {
                           type: (ctx) => {
                             console.log(ctx.name, '请求');
                             const value = ctx.values[0];
-                            
+
                             let source;
                             if (value === 'zhejiang') {
                               source = [

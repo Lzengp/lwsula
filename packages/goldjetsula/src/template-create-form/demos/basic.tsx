@@ -1,5 +1,5 @@
 import React from 'react';
-import { CreateForm } from '../';
+import { CreateForm } from '..';
 import { remoteValues, submit } from '../../form/demos/common';
 import ModeSwitcher from '../../form/demos/modeSwitcher';
 

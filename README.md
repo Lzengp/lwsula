@@ -36,7 +36,7 @@ npm i sula --save
 ## 🔨 用法
 
 ```js
-import { Form, Table, CreateForm, QueryTable, StepForm, StepQueryTable } from 'lzengpsula';
+import { Form, Table, CreateForm, QueryTable, StepForm, StepQueryTable } from 'goldjetsula';
 ```
 
 ## 📋 待完成

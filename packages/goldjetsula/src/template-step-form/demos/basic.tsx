@@ -1,6 +1,6 @@
 import React from 'react';
 import { StepForm } from '..';
-import { submit, remoteValues } from '../../form/demos/common.jsx';
+import { submit, remoteValues } from '../../form/demos/common.jsx.js';
 import { Button } from 'antd';
 import ModeSwitcher from '../../form/demos/modeSwitcher.tsx';
 
@@ -43,9 +43,9 @@ export default class BaiscDemo extends React.Component {
   state = {
     direction: 'horizontal',
     mode: 'create',
-  }
+  };
   render() {
-    const { direction, mode} = this.state;
+    const { direction, mode } = this.state;
     return (
       <div>
         <Button

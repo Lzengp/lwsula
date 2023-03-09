@@ -1,5 +1,5 @@
 import React from 'react';
-import { QueryTable } from 'lzengpsula';
+import { QueryTable } from 'goldjetsula';
 
 const queryFields = Array(10)
   .fill(0)
@@ -133,14 +133,14 @@ export default class BasicDemo extends React.Component {
   state = {
   }
 
-  componentDidMount() {}
+  componentDidMount() { }
 
   changevisibleFieldsCount = (v) => {
-    this.setState({visibleFieldsCount: v});
+    this.setState({ visibleFieldsCount: v });
   }
 
   render() {
-    const {visibleFieldsCount } = this.state;
+    const { visibleFieldsCount } = this.state;
     return (
       <div>
         <button onClick={() => this.changevisibleFieldsCount(4)}>4</button>

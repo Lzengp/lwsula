@@ -5,10 +5,10 @@
  */
 
 import React from 'react';
-import { Form } from 'lzengpsula';
+import { Form } from 'goldjetsula';
 
 export default class ValueCollectDemo extends React.Component {
-  componentDidMount() {}
+  componentDidMount() { }
 
   render() {
     return (

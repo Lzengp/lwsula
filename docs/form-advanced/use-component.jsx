@@ -5,7 +5,7 @@
  */
 
 import React from 'react';
-import { Form, FieldGroup, Field, FormAction } from 'lzengpsula';
+import { Form, FieldGroup, Field, FormAction } from 'goldjetsula';
 import LayoutSwitcher from '../components/layoutSwitcher';
 import ColumnsSwitcher from '../components/columnsSwitcher';
 import ActionsPositionSwitcher from '../components/actionsPositionSwitcher';
@@ -68,7 +68,7 @@ export default class ValueCollectDemo extends React.Component {
             <Field field={{ type: 'input' }} name="input4" label="input4" />
           </FieldGroup>
         </Form>
-        <Form style={{marginTop: 16}} layout={layout} itemLayout={{ span: 24 / cols }}>
+        <Form style={{ marginTop: 16 }} layout={layout} itemLayout={{ span: 24 / cols }}>
           <FieldGroup>
             <Field field={{ type: 'input' }} name="input1" label="input1" />
             <Field field={{ type: 'input' }} name="input2" label="input2" />

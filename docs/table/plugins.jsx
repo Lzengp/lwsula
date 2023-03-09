@@ -1,6 +1,6 @@
 import React from 'react';
 import { LikeOutlined, EditOutlined, DeleteOutlined } from '@ant-design/icons';
-import { Table } from 'lzengpsula';
+import { Table } from 'goldjetsula';
 
 const status = [
   {
@@ -140,14 +140,16 @@ const columns = [
 
 
 export default class BasicDemo extends React.Component {
-  componentDidMount() {}
+  componentDidMount() { }
 
   render() {
     return (
       <Table
-        initialPaging={{filters: {
-          index: 'sula',
-        }}}
+        initialPaging={{
+          filters: {
+            index: 'sula',
+          }
+        }}
         columns={columns}
         remoteDataSource={remoteDataSource}
         rowKey="id"

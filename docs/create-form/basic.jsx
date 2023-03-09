@@ -1,5 +1,5 @@
 import React from 'react';
-import { CreateForm } from 'lzengpsula';
+import { CreateForm } from 'goldjetsula';
 import ModeSwitcher from '../components/modeSwitcher';
 
 export default class BasicDemo extends React.Component {
@@ -7,15 +7,15 @@ export default class BasicDemo extends React.Component {
     mode: 'create',
   }
 
-  componentDidMount() {}
+  componentDidMount() { }
 
   render() {
     const { mode } = this.state;
     return (
       <div>
         <ModeSwitcher value={mode} onChange={(mode) => {
-          this.setState({mode});
-        }}/>
+          this.setState({ mode });
+        }} />
         <CreateForm
           mode={mode}
           key={mode}

@@ -1,9 +1,9 @@
 import React from 'react';
-import { Form } from 'lzengpsula';
+import { Form } from 'goldjetsula';
 
 
 export default class ValidatorDemo extends React.Component {
-  componentDidMount() {}
+  componentDidMount() { }
 
   render() {
     return (
@@ -29,7 +29,7 @@ export default class ValidatorDemo extends React.Component {
             rules: [{ // 自定义校验
               validator(ctx) {
                 return new Promise((resolve, reject) => {
-                  if(ctx.value === 'sula') {
+                  if (ctx.value === 'sula') {
                     resolve();
                   } else {
                     reject(new Error('请输入sula'));

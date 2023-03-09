@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from 'antd';
 import Modal from '..';
-import { remoteSource, remoteValues, submit } from '../../form/demos/common.jsx';
+import { remoteSource, remoteValues, submit } from '../../form/demos/common.jsx.js';
 import ModeSwitcher from '../../form/demos/modeSwitcher.tsx';
 
 export default function () {

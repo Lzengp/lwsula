@@ -1,5 +1,5 @@
 import React from 'react';
-import { StepForm } from 'lzengpsula';
+import { StepForm } from 'goldjetsula';
 import { Button } from 'antd';
 
 const steps = [
@@ -52,7 +52,7 @@ export default class BasicDemo extends React.Component {
     mode: 'create',
   };
 
-  componentDidMount() {}
+  componentDidMount() { }
 
   render() {
     const { direction, mode } = this.state;

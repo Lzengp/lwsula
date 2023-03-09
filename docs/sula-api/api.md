@@ -514,7 +514,7 @@ const config = {
 - 示例
 ```js
 import React from 'react';
-import { Form, FieldGroup, Field } from 'lzengpsula';
+import { Form, FieldGroup, Field } from 'goldjetsula';
 
 export default () => {
   const fieldChildren = [{
@@ -567,7 +567,7 @@ export default () => {
 - 示例
 ```js
 import React from 'react';
-import { Form, FieldGroup, FormAction } from 'lzengpsula';
+import { Form, FieldGroup, FormAction } from 'goldjetsula';
 
 export default () => {
   const fields = [{
@@ -640,7 +640,7 @@ export default () => {
 - 示例
 ```js
 import React from 'react';
-import { Form, FieldGroup, Field, FormAction } from 'lzengpsula';
+import { Form, FieldGroup, Field, FormAction } from 'goldjetsula';
 
 export default () => {
   const fields = [{
@@ -701,7 +701,7 @@ export default () => {
 
 - 示例
 ```js
-import { MediaQueries } from 'lzengpsula';
+import { MediaQueries } from 'goldjetsula';
 
 export default () => {
   return (

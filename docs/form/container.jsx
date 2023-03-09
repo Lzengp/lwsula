@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form } from 'lzengpsula';
+import { Form } from 'goldjetsula';
 
 export default class FieldContainer extends React.Component {
   render() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, FormList, Field } from 'lzengpsula';
+import { Form, FormList, Field } from 'goldjetsula';
 import { Table, Button, Space } from 'antd';
 
 export default class EditableTableDemo extends React.Component {
@@ -10,7 +10,7 @@ export default class EditableTableDemo extends React.Component {
           <FormList label="可编辑表格" name="et">
             {(fields, list) => {
               console.log('list: ', list);
-              const { add, remove} = list
+              const { add, remove } = list;
               return (
                 <div>
                   <Table

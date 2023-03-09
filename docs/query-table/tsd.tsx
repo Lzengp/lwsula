@@ -1,5 +1,5 @@
 import React from 'react';
-import { QueryTable, QueryTableProps } from 'lzengpsula';
+import { QueryTable, QueryTableProps } from 'goldjetsula';
 
 const queryFields: QueryTableProps['fields'] = Array(10)
   .fill(0)
@@ -129,7 +129,7 @@ const actions: QueryTableProps['actionsRender'] = [
 ];
 
 export default class BasicDemo extends React.Component {
-  componentDidMount() {}
+  componentDidMount() { }
 
   render() {
     return (

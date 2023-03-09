@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider } from 'lzengpsula';
+import { ConfigProvider } from 'goldjetsula';
 import { history, getLocale } from 'umi';
 
 const baseSeparator = '{{{baseSeparator}}}' || '-';
@@ -16,7 +16,7 @@ function getLocaleData() {
 
   let locale;
   try {
-    locale = require(`lzengpsula/es/localereceiver/${langFile}`);
+    locale = require(`goldjetsula/es/localereceiver/${langFile}`);
     locale = locale.default || locale;
   } catch (error) {}
   return locale;

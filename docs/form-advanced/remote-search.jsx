@@ -3,10 +3,10 @@
  */
 
 import React from 'react';
-import { Form } from 'lzengpsula';
+import { Form } from 'goldjetsula';
 
 export default class RemoteSearchDemo extends React.Component {
-  componentDidMount() {}
+  componentDidMount() { }
 
   render() {
     return (
@@ -32,7 +32,7 @@ export default class RemoteSearchDemo extends React.Component {
                   type: 'primary',
                   children: 'submit',
                 },
-                action({form}) {
+                action({ form }) {
                   form.validateFields().then(values => {
                     console.log('values', values);
                   })

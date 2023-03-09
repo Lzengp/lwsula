@@ -1,10 +1,10 @@
 {
-  "name": "lzengpsula",
-  "version": "1.2.5",
+  "name": "goldjetsula",
+  "version": "1.0.0",
   "module": "./es/index.js",
   "main": "./es/index.js",
   "types": "./es/index.d.ts",
-  "description": "lzengpsula",
+  "description": "goldjetsula",
   "peerDependencies": {
     "@ant-design/icons": "^4.0.0",
     "antd": "^4.0.0",

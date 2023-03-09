@@ -12,7 +12,7 @@
     "test:update": "umi-test 'test.(j|t)s' --coverage --updateSnapshot",
     "test:watch": "umi-test 'test.(j|t)s' --coverage --watch",
     "predeploy": "npm run build",
-    "deploy": "now deploy ./dist -n lzengpsula --prod"
+    "deploy": "now deploy ./dist -n goldjetsula --prod"
   },
   "devDependencies": {
     "@ant-design/icons": "^4.1.0",

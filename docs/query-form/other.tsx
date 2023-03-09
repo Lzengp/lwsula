@@ -1,5 +1,5 @@
 import React from 'react';
-import { FormInstance, QueryForm } from 'lzengpsula';
+import { FormInstance, QueryForm } from 'goldjetsula';
 
 const queryFields = Array(10)
   .fill(0)
@@ -20,7 +20,7 @@ export default class BasicDemo extends React.Component {
         <button onClick={() => {
           this.formRef.current?.setFieldsValue({
             input0: '123123',
-          })
+          });
         }}>设置表单值</button>
         <div style={{ background: 'rgb(241, 242, 246)', padding: 16, marginTop: 16 }}>
           <QueryForm
@@ -35,10 +35,10 @@ export default class BasicDemo extends React.Component {
               return {
                 table: {
                   refreshTable: () => {
-                    console.log('刷新表格')
+                    console.log('刷新表格');
                   }
                 }
-              }
+              };
             }}
             actionsRender={[
               {
@@ -56,7 +56,7 @@ export default class BasicDemo extends React.Component {
                         ctx.table?.refreshTable();
                         resolve('ok');
                       }, 2000);
-                    })
+                    });
                   },
                 ],
               },

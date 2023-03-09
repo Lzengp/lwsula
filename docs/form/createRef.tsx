@@ -1,10 +1,10 @@
 import React from 'react';
 import { Button } from 'antd';
-import { Form, Field, FormAction, FieldGroup, FormInstance } from 'lzengpsula';
+import { Form, Field, FormAction, FieldGroup, FormInstance } from 'goldjetsula';
 
 export default class CreateRefDemo extends React.Component {
   formRef = React.createRef<FormInstance>();
-  
+
   render() {
     return (
       <Form ref={this.formRef}>
